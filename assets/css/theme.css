@@ -252,6 +252,9 @@ Table of Contents:
 		background-repeat: no-repeat; 
 		z-index: 0;
 	}
+	
+
+
 	.bg-image > img { display: none; }
 	.bg-image + * { position: relative; }
 	.bg-fixed { background-attachment: fixed; }
