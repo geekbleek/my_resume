@@ -2,7 +2,17 @@
 
 <head>
     <style type="text/css">
-            @media screen {
+            @media all and (max-width:480px) {
+            .calculator tr {
+                display: table;
+                width: 100%;
+            }
+            .calculator tr {
+                display: table-row;
+            }
+        }
+        
+        @media screen {
             /* latin */
             @font-face {
                 font-family: 'Nunito';
@@ -29,7 +39,7 @@
 </head>
 
 <body>
-    <table cellpadding="0" cellspacing="0" class="sc-jDwBTQ dWtMUn" style="vertical-align: -webkit-baseline-middle; font-size: small;">
+    <table class="calculator" cellpadding="0" cellspacing="0" class="sc-jDwBTQ dWtMUn" style="vertical-align: -webkit-baseline-middle; font-size: small;">
         <tbody>
             <tr>
                 <td>
@@ -37,7 +47,7 @@
                         <tbody>
                             <tr>
                                 <td width="75" style="vertical-align: middle;"><span class="sc-TOsTZ kjYrri" style="margin-right: 15px; display: block;"><img width="60" src="https://geekbleek.com/assets/img/sig/casey-bleeker-small-circle.png" role="presentation" class="sc-kjoXOD hpTAeq"></span></td>
-                                <td style="vertical-align: middle;">
+                                <td style="vertical-align: middle; white-space:nowrap;">
                                     <h3 color="#55565a" class="sc-jhAzac hmXDXQ" style="margin: 0px; font-size: 16px; color: rgb(85, 86, 90);"><span>Casey</span><span>&nbsp;</span><span>Bleeker</span></h3>
                                     <p color="#55565a" font-size="small" class="sc-fBuWsC eeihxG" style="margin: 0px; color: rgb(85, 86, 90); font-size: 12px; line-height: 20px;"><span>Director of Cloud Advocacy &amp; Enablement</span></p>
                                     <p color="#55565a" font-size="small" class="sc-fMiknA bxZCMx" style="margin: 0px; font-weight: 500; color: rgb(85, 86, 90); font-size: 12px; line-height: 20px;"><span>IGNW</span></p>
@@ -132,7 +142,6 @@
                                                 <td>
                                                     <a href="https://github.com/geekbleek" color="#3e8ede" class="sc-bRBYWo ccSRck" style="display: inline-block; padding: 0px; background-color: rgb(62, 142, 222);"><img height="24" src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/github-icon-2x.png" alt="github" color="#3e8ede" class="sc-Rmtcm gwGgYM" style="background-color: rgb(62, 142, 222); max-width: 135px; display: block;"></a>
                                                 </td>
-
                                                 <td width="5">
                                                     <div></div>
                                                 </td>
@@ -151,23 +160,7 @@
                     </table>
                 </td>
             </tr>
-            <!-- Bottom Call to Action
-            <tr>
-            <td>
-                <table cellpadding="0" cellspacing="0" class="sc-jDwBTQ dWtMUn" style="vertical-align: -webkit-baseline-middle; font-size: small; width: 100%;">
-                    <tbody>
-                        <tr>
-                            <td height="15"></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td style="text-align: right;"><span style="display: block; text-align: right;"><a target="_blank" rel="noopener noreferrer" href="https://ignw.io" color="#6A78D1" class="sc-eqIVtm kRufpp" style="border-width: 6px 12px; border-style: solid; border-color: rgb(106, 120, 209); display: inline-block; background-color: rgb(106, 120, 209); color: rgb(255, 255, 255); font-weight: 700; text-decoration: none; text-align: center; line-height: 40px; font-size: 12px; border-radius: 3px;">Diversify your Cloud Portfolio with Hybrid!</a></span></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </td>
-            </tr>
-            -->
+            <!-- Bottom Call to Action <tr> <td> <table cellpadding="0" cellspacing="0" class="sc-jDwBTQ dWtMUn" style="vertical-align: -webkit-baseline-middle; font-size: small; width: 100%;"> <tbody> <tr> <td height="15"></td></tr><tr> <td></td><td style="text-align: right;"><span style="display: block; text-align: right;"><a target="_blank" rel="noopener noreferrer" href="https://ignw.io" color="#6A78D1" class="sc-eqIVtm kRufpp" style="border-width: 6px 12px; border-style: solid; border-color: rgb(106, 120, 209); display: inline-block; background-color: rgb(106, 120, 209); color: rgb(255, 255, 255); font-weight: 700; text-decoration: none; text-align: center; line-height: 40px; font-size: 12px; border-radius: 3px;">Diversify your Cloud Portfolio with Hybrid!</a></span></td></tr></tbody> </table> </td></tr>-->
         </tbody>
     </table>
 </body>
