@@ -6,9 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geekbleek Contact Info</title>
-    <script>
-        window.location.href = "ftp://geekbleek.com/Casey_Bleeker_Contact_Card.vcf";
-        window.close();
+    <script async>
+        redirectFtp = async() => {
+            window.location.href = "ftp://geekbleek.com/Casey_Bleeker_Contact_Card.vcf";
+            return true;
+        };
+        (async() => {
+            redirectStatus = await redirectFtp();
+            window.location.href = "https://geekbleek.com";
+        })();
     </script>
 </head>
 
